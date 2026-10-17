@@ -1,0 +1,8 @@
+{
+  "name": "SYHAKAL",
+  "description": "Futuristic AI Studio for Image \u0026 Video Generation, Global Community Showcase, and Dynamic Subscriptions",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

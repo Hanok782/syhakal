@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Central Glowing Core -->
+    <!-- Diamond outer ring -->
+    <path
+        android:strokeColor="#00F5FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,28 L78,52 L54,76 L30,52 Z" />
+
+    <!-- Inner AI Star Prism -->
+    <path
+        android:strokeColor="#BD00FF"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,36 L66,48 L78,52 L66,56 L54,68 L42,56 L30,52 L42,48 Z" />
+
+    <!-- Center Energy Sphere / Core -->
+    <path
+        android:pathData="M54,46 A6,6 0 1,1 53.99,46 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="46"
+                android:endX="60"
+                android:endY="58"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="0.5" android:color="#00F5FF" />
+                <item android:offset="1.0" android:color="#BD00FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Radiating Neural Sparks -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M54,20 L54,25 M54,79 L54,84 M22,52 L27,52 M81,52 L86,52" />
+
+    <!-- Creative S-Curve Brand Filament for SYHAKAL -->
+    <path
+        android:strokeColor="#00F5FF"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M48,43 C42,45 42,49 48,51 C54,53 54,57 48,59" />
+
+    <path
+        android:strokeColor="#FF007F"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M60,43 C66,45 66,49 60,51 C54,53 54,57 60,59" />
+</vector>
